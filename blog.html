@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+	
+	<head>
+		<meta charset="utf-8" />
+		<title>Blog</title>
+    <link rel="stylesheet" href="blog.css"/>
+	</head>
+	
+	<body>
+    
+    <div id="haut">
+      <h1>Blog</h1>
+      <p class="bouton">
+        <button onClick="window.location.href = 'accueil.html';"/>Accueil</button>
+        <button onClick="window.location.href = 'article.html';"/>Article</button>
+        <button onClick="window.location.href = 'blog.html';"/>Editeur</button>
+        <button onClick="window.location.href = 'connexion.html';"/>Inscription/Connexion</button>
+      </p>
+      <hr/>
+    </div>
+    
+    <div id="vide"></div>
+    
+    
+    <fieldset id="article">
+      <legend>Nouvel Article</legend>
+      <form action = "article.php" method="post">
+        <p>
+          Titre:<input type="text" name="titre" required/>
+          <br/>
+        
+          <textarea name="contenu"cols="200"rows="20" required placeholder="Ecrivez votre article ici"></textarea>
+        
+          <br/>
+          <input type="submit" value="Valider"/>
+          <input type="reset" value="Effacer"/>
+        </p>
+        
+    
+      </form>
+    </fieldset>
+  
+  </body>
+	
+</html>
