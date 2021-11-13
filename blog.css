@@ -13,16 +13,39 @@ p.bouton{
   text-align:center;
 }
 
-#article{
+
+#articleAccueil{
   background-color:white;
-  width:50%;
-  margin-left: auto;
-  margin-right: auto;
+  width:78%;
+  margin-left:10%;
+  margin-right:10%;
+  padding:1%;
+  word-wrap:break-word;
 }
 
 #articleListe{
   background-color:white;
-  width:100%;
+  width:78%;
+  margin-left:10%;
+  margin-right:10%;
+  padding:1%;
+  word-wrap:break-word;
+}
+
+
+
+.articleListe2{
+  background-color:#87CEEB;
+  width:92%;
+  margin-left:3%;
+  margin-right:3%;
+  padding:1%;
+}
+
+
+
+.boutonArticle{
+  margin-left:90%;
 }
 
 
@@ -40,7 +63,9 @@ p.bouton{
 #connexion{
   text-align:center;
   background-color:white;
-  width:50%;
+  width:48%;
   margin-left: auto;
   margin-right: auto;
+  padding:1%;
 }
+
